@@ -6,16 +6,21 @@ body {
 }
 
 .container {
-    width: 70%;
+    width: 90%;
     margin: auto;
-    overflow: hidden;
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
 }
 
 header {
-    height: 100px;
+    min-height: 50px;
     color: rgb(13, 73, 28);
     background-color: rgb(236, 242, 236);
-    padding-top: 10px;
+    padding-top: 30px;
     border-bottom: peru 2px solid;
 }
 
@@ -26,13 +31,22 @@ header a {
     font-size: 18px;
 }
 
-header ul {
-
-    padding: 0;
-}
 
 header li {
-    float: left;
     display: inline;
-    padding: 0 18px 0 18px;
+    float: left;
+    padding: 0 23px 0 23px;
+}
+
+#logo {
+    float: left;
+}
+
+#logo h2 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 5px;
+    float: right;
 }
