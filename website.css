@@ -1,0 +1,38 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: pink;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    height: 100px;
+    color: rgb(13, 73, 28);
+    background-color: rgb(236, 242, 236);
+    padding-top: 10px;
+    border-bottom: peru 2px solid;
+}
+
+header a {
+    text-transform: uppercase;
+    color: peru;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header ul {
+
+    padding: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 18px 0 18px;
+}
