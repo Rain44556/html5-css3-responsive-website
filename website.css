@@ -144,9 +144,10 @@ nav {
 }
 
 footer {
-    margin-top: 5px;
+    height: 90px;
+    margin-top: 15px;
     text-align: center;
-    padding: 13px;
+    padding: 15px;
     background-color: rgb(240, 129, 213);
     color: rgb(96, 16, 172);
     font-size: 13px;
