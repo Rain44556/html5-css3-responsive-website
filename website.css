@@ -1,4 +1,5 @@
 body {
+    line-height: 1.5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: pink;
     padding: 0;
@@ -6,9 +7,9 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 90%;
     margin: auto;
-
+    overflow: hidden;
 }
 
 ul {
@@ -18,7 +19,7 @@ ul {
 
 header {
     min-height: 50px;
-    color: rgb(13, 73, 28);
+    color: rgb(132, 131, 122);
     background-color: rgb(236, 242, 236);
     padding-top: 20px;
     border-bottom: peru 2px solid;
@@ -62,10 +63,46 @@ nav {
 
 #display {
     margin-top: 0;
-    color: #71ffff;
+    color: rgb(230, 247, 255);
     text-align: center;
     height: 300px;
     background: url("image/logo.jpg") no-repeat 0 -300px;
+    background-size: cover;
+    background-position: center;
+}
+
+#display h3 {
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#display p {
+    font-size: 18px;
+}
+
+#magazine {
+    padding: 10px;
+    color: rgb(165, 152, 27);
+    background-color: beige;
+}
+
+#magazine h3 {
+    float: left;
+}
+
+#magazine form {
+    float: right;
+    margin-top: 18px;
+}
+
+#magazine input[type="email"] {
+    background-color: rgb(246, 238, 165);
+    padding: 5px;
+    height: 20px;
+    width: 230px;
+    border: none;
+    box-shadow: 2px 2px 3px rgb(131, 118, 10);
 }
 
 .box img {
