@@ -1,12 +1,12 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: pink;
     padding: 0;
     margin: 0;
 }
 
 .container {
-    width: 90%;
+    width: 100%;
     margin: auto;
 
 }
@@ -20,17 +20,24 @@ header {
     min-height: 50px;
     color: rgb(13, 73, 28);
     background-color: rgb(236, 242, 236);
-    padding-top: 30px;
+    padding-top: 20px;
     border-bottom: peru 2px solid;
 }
 
 header a {
-    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
     color: peru;
     text-decoration: none;
-    font-size: 18px;
 }
 
+header a:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: 600;
+    color: #ff8914;
+
+}
 
 header li {
     display: inline;
@@ -39,6 +46,8 @@ header li {
 }
 
 #logo {
+    font-size: 10px;
+    text-transform: uppercase;
     float: left;
 }
 
@@ -47,6 +56,19 @@ header li {
 }
 
 nav {
-    margin-top: 5px;
+    margin-top: 25px;
     float: right;
+}
+
+#display {
+    margin-top: 0;
+    color: #71ffff;
+    text-align: center;
+    height: 300px;
+    background: url("image/logo.jpg") no-repeat 0 -300px;
+}
+
+.box img {
+    width: 100px;
+    height: 100px;
 }
