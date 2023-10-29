@@ -155,12 +155,55 @@ nav {
     color: rgb(17, 43, 35);
 }
 
+.about-us {
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+
+}
+
+.about-us h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 90px;
+}
+
+.about-us img {
+    width: 450px;
+    height: 300px;
+    box-shadow: 25px 25px 30px rgb(49, 49, 80);
+}
+
+.dark {
+    padding: 15px;
+    background-color: rgb(62, 90, 9);
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+aside#sidebar {
+    float: left;
+    width: 20%;
+    margin-top: 10px;
+}
+
+article#central-col {
+    text-decoration: solid;
+    font-size: 18px;
+    margin-top: 50px;
+    float: right;
+    width: 65%;
+}
+
 footer {
     min-height: 170px;
     margin-top: 15px;
     text-align: center;
     padding: 15px;
-    background-color: skyblue;
+    background-color: rgb(28, 149, 197);
     color: rgb(255, 254, 254);
     font-size: 13px;
 }
