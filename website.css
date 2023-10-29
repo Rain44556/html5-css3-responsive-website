@@ -197,8 +197,7 @@ article#central-col {
 }
 
 footer {
-    min-height: 170px;
-    margin-top: 15px;
+    min-height: 100vh;
     text-align: center;
     padding: 15px;
     background-color: rgb(28, 149, 197);
