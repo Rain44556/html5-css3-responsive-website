@@ -210,6 +210,7 @@ aside#sidebar {
 }
 
 #information p {
+    text-align: justify;
     color: rgb(110, 110, 110);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-left: 50px;
@@ -276,6 +277,55 @@ aside#sidebar {
     cursor: pointer;
     box-shadow: 3px 3px 5px rgb(11, 177, 119);
     ;
+}
+
+
+
+#articles {
+    width: 90%;
+    margin: auto;
+}
+
+#articles-info h2 {
+    margin-top: 80px;
+    text-decoration: solid;
+    color: #828489;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#articles-info p {
+    text-align: justify;
+    font-size: 17px;
+    margin-bottom: 80px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px;
+}
+
+.card {
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid rgb(172, 225, 246);
+    background-color: rgb(218, 242, 252);
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 4px 4px 4px 8px gray;
+}
+
+.card h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.card p {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 footer {
