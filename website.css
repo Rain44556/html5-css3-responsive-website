@@ -336,3 +336,35 @@ footer {
     color: rgb(255, 254, 254);
     font-size: 13px;
 }
+
+@media(max-width: 768) {
+
+    header nav,
+    header nav li,
+    #magazine h3,
+    #magazine form,
+    #boxes .box article#central-col,
+    aside#sidebar {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    header {
+        padding-bottom: 20px;
+    }
+
+    #display h3 {
+        margin-top: 40px;
+    }
+
+    #magazine button {
+        display: block;
+        width: 100%;
+    }
+
+    #magazine form input[type="email"] {
+        width: 100%;
+        margin-bottom: 7px;
+    }
+}
